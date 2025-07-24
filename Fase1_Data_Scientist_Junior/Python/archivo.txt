@@ -1,0 +1,18 @@
+¿Qué es Python?
+Python es un lenguaje de programación orientado a objetos de alto nivel y fácil de interpretar con una sintaxis fácil de leer. Ideal para la creación de prototipos y tareas ad hoc, Python tiene un amplio uso en computación científica, desarrollo web y automatización. Como un lenguaje de programación para principiantes de uso general, Python es compatible con muchos de los principales científicos informáticos y desarrolladores de aplicaciones de todo el mundo.
+¿Quieres escuchar un endoso de celebridades? Peter Norvig, director de investigación de Google, dijo: "Python ha sido una parte importante de Google desde el principio, y sigue siendo así a medida que el sistema crece y evoluciona".
+Es importante entender todos los aspectos de Python como un lenguaje de programación de código abierto. Hablaremos sobre el desarrollo de Python, las bibliotecas de Python, así como algo de historia y tendencias futuras. Sigue leyendo para envolver tu mente alrededor de este lenguaje elegante e increíble.
+
+Por qué los desarrolladores deben aprender Python
+Python es el primer lenguaje de muchos programadores nuevos. En un curso de informática universitario, generalmente es el primero introducido. ¿Por qué?
+Por un lado, Python es legible. A veces, incluso está cerca del inglés, con un poco de conocimiento del idioma, puedes mirar el código y tener una idea de lo que está tratando de hacer.
+Esto contrasta con otros lenguajes de aplicación de su generación, lo que podría ser más confuso. Ejemplo de Python para imprimir "¡Hola, mundo!" en la consola de un ordenador.
+
+Python te obliga a escribir código limpio
+A diferencia de la mayoría de los otros lenguajes de desarrollo, el código Python depende de la sangría. En resumen, debe agregar espacios a las líneas de código dentro de un bloque de código determinado de una manera específica y predecible. De lo contrario, el código no se ejecutará.
+¡Esto puede frustrar a los nuevos programadores de Python! Para un principiante, la sintaxis de Python puede ser frustrante a veces. Pero después de alguna práctica con el lenguaje, la mayoría viene a jurar por él. Debido a que su código obedece a una lógica visual predecible, se vuelve más fácil de leer, tanto para otros programadores que pueden encontrar su trabajo, como para usted mismo en el futuro.
+
+Python es popular, especialmente en ciencia de datos e IA
+Un idioma podría ser el más legible del mundo y aún así morir olvidado. Muchos campos de la informática son como concursos de popularidad: las herramientas más populares a menudo terminan siendo la mejor opción para el trabajo.
+Los idiomas populares tienen una mayor selección de bibliotecas, lo que ahorra a un desarrollador increíbles cantidades de tiempo y esfuerzo. Los idiomas populares también tienden a tener más tutoriales y documentación, por lo que es más probable que encuentre soluciones a sus problemas.
+Y si tiene algún interés en la ciencia de datos o el aprendizaje automático, no busque más. Python es la mejor opción de las industrias de IA y ciencia de datos. Esto prácticamente garantiza su supervivencia.
