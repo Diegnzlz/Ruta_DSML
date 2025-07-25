@@ -1,0 +1,13 @@
+nombre,edad,ciudad,nota,aprobado
+Diego,30,Maracay,18,True
+Ana,22,Valencia,19,True
+Luis,27,Caracas,15,True
+Maria,25,Maracay,20,True
+pedro,17,Valencia,8,False
+Carla,24,Caracas,16,True
+juan,29,Maracay,5,False
+Sofia,6,Valencia,12,True
+Carlos,26,Caracas,18,True
+Lucia,23,Maracay,17,True
+Pedro,12,Valencia,16,True
+Laura,8,Caracas,20,True
