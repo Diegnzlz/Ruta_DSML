@@ -30,7 +30,7 @@ rango_edades = df['Age'].agg(['min', 'max'])
 print(rango_edades)
 
 # Haz un gráfico de barras de la cantidad de pasajeros por clase (“Pclass”).
-df['Pclass'].hist(bins=20)
+df['Pclass'].value_counts().sort_index().plot(kind='bar')
 plt.title("Cantidad de pasajeros por clase")
 plt.xlabel("Clase")
 plt.ylabel("Cantidad")
