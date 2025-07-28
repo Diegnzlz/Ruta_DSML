@@ -10,6 +10,8 @@ pd.crosstab(df['Pclass'], df['Sex'])
 
 La gráfica muestra que la mayoría de los pasajeros de tercera clase eran hombres, mientras que en primera clase el número de mujeres es relativamente mayor comparado con las otras clases.
 
+---
+
 ### 2. Sobrevivientes por clase y sexo
 
 Tablas de sobrevivientes:
@@ -19,9 +21,11 @@ pd.crosstab([df['Pclass'], df['Sex']], df['Survived'])
 ```
 
 Gráficos de supervivencia por sexo y clase:
-Mujeres:![alt text](supervivientes_hombres_por_clase.png)
+Mujeres:![alt text](supervivientes_mujeres_por_clase.png)
 
 Hombres:![alt text](supervivientes_hombres_por_clase.png)
+
+---
 
 ### 3. Porcentaje de supervivencia por clase y sexo
 
@@ -34,6 +38,8 @@ df.groupby(['Pclass', 'Sex'])['Survived'].mean().unstack()
 Y lo visualizamos en un gráfico de barras:
 
 ![alt text](tasa_supervivencia_por_clase_y_sexo.png)
+
+---
 
 ### 4. Conclusión
 
