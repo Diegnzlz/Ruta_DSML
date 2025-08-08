@@ -47,6 +47,15 @@ Este análisis exploratorio se realizó sobre el dataset "California Housing". E
 
 4. **Outliers y asimetría**: Población (`Population`) y ocupación promedio (`AveOccup`) muestran asimetría y algunos valores extremos en la cola derecha.
 
+5. **Outliers en población (`Population`):**  
+  Algunos distritos muestran poblaciones inusualmente altas; quizá se trate de valores atípicos o errores en el muestreo.
+
+6. **Asimetría en la ocupación promedio (`AveOccup`):**  
+  La distribución está sesgada a la derecha: la mayoría de los distritos tiene ocupación baja, pero hay pocos con valores muy elevados.
+
+7. **Correlación entre edad de la vivienda y valor (`HouseAge`, `MedHouseVal`):**  
+  Se observa una correlación negativa moderada (~ –0.30), lo que sugiere que las viviendas más antiguas tienden a tener menor valor medio.
+
 ---
 
 ## 5. Conclusión
