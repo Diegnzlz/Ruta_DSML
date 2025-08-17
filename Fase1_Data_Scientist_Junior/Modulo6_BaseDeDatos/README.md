@@ -15,34 +15,32 @@ La práctica consiste en:
 
 ## 🔗 Fuente de datos
 
-Los datos provienen de la API pública [REST Countries](https://restcountries.com/), filtrando información de **Estados Unidos** y específicamente de su estado **California**.
+Utilizamos la API pública de **[REST Countries](https://restcountries.com/)** para obtener información global.  
+Se enfocó en:  
 
-Se almacenaron atributos clave como:
-
-- Nombre oficial.
-- Región y subregión.
-- Capital.
-- Población.
-- Idiomas.
-- Moneda.
+- Nombre común y oficial  
+- Capital  
+- Región y subregión  
+- Población  
+- Idiomas  
+- Moneda oficial  
 
 ---
 
 ## 🗄️ Base de Datos
 
-La base de datos fue creada en **SQLite**.  
-Se definió una tabla principal llamada `california` con la siguiente estructura:
+Se creó una base llamada `california.db` con una tabla `california`:
 
 ```sql
 CREATE TABLE california (
-    id INTEGER PRIMARY KEY AUTOINCREMENT,
-    nombre TEXT,
-    region TEXT,
-    subregion TEXT,
-    capital TEXT,
-    poblacion INTEGER,
-    moneda TEXT,
-    idioma TEXT
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  nombre TEXT,
+  region TEXT,
+  subregion TEXT,
+  capital TEXT,
+  poblacion INTEGER,
+  moneda TEXT,
+  idioma TEXT
 );
 ```
 
@@ -76,10 +74,10 @@ SELECT nombre, capital, region, subregion FROM california;
 
 ## 📈 Resultados Principales
 
-- Población: se obtuvo la cifra registrada de habitantes en el estado.
-- Idioma principal: inglés, con variantes de uso local.
+- Población: se obtiene el número registrado de habitantes.
+- Idioma predominante: inglés (con posibles variantes locales).
 - Moneda oficial: dólar estadounidense (USD).
-- Clasificación regional: América del Norte → Norteamérica.
+- Región geográfica: América del Norte → Norteamérica.
 
 ---
 
